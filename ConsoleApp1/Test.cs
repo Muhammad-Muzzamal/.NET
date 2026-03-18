@@ -9,12 +9,13 @@ namespace ConsoleApp1
         private int roll;
         private string name;
         private bool isPass;
-
+         
         // constructor is used to initialize the the variables
         public Test() // non-paramterized constructor
         {
+            Console.WriteLine("Default constructor");
             roll = 0;
-            name = "";
+            name = ""; 
             isPass = false;
         }
     }
