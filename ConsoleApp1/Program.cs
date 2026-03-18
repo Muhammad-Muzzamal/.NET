@@ -51,7 +51,10 @@ namespace ConsoleApp1
             //a.func1();
 
             Student std = new Student("Muhammad MUzzamal", 12);
-            Console.WriteLine(std.Name);
+            //Console.WriteLine(std.Name);
+
+            Test t = new Test();
+
 
         }
 
